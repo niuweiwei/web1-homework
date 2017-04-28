@@ -1,0 +1,28 @@
+body{
+	color:gray;
+	font-size:12px;
+	font-family:'Arial';
+	text-height:2em;
+}
+a{
+	color:#727272;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.head{
+	color:#b9f605;
+	font-size:14px;
+	font-weight:bold;
+}
+.banner{
+	color:white;
+}
+.banner:hover{
+	color:#b9f605;
+	text-decoration:none;
+}
+#special{
+	color:#fdb306;
+}
