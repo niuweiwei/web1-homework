@@ -1,0 +1,280 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url(../images/bg1.jpg);
+	background-repeat:repeat-x;
+}
+a{
+	font-family:"宋体";
+	font-size:12px;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+ul{
+	list-style:none;
+}
+/*页面顶部样式设置*/
+#head{
+	width:1355px;
+	align-content:center;
+	padding-bottom:0px;
+}
+.banner img{
+	position:relative;
+	left:450px;
+}
+.banner{
+	background-image:url(../images/banner.jpg);
+	background-size:1365px 222px;
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+}
+.login span{
+	float:right;
+	position:relative;
+	bottom:220px;
+	right:5px;
+}
+.login span a{
+	color:#00ffcc;
+	font-size:16px;
+}
+.nav{
+	height:61px;
+	background-image:url(../images/nav_bg.png);
+	background-repeat:repeat-x;
+	background-size:1365px 61px;
+	position:relative;
+	bottom:4px;
+}
+.nav ul li{
+	float:left;
+	margin-left:10px;
+	width:100px;
+	height:50px;
+}
+#front{
+	margin-left:150px;
+	width:100px;
+}
+#front a{
+	padding-left:40px;
+}
+#second{
+	margin-left:10px;
+}
+.nav ul li a{
+	color:#cc3333;
+	line-height:64px;
+	font-weight:bold;
+	font-size:16px;
+}
+.nav ul li a:hover{
+	color:#ff9966;
+}
+#first{
+	color:#ff9966;
+}
+.search input{
+	float:left;
+	position:relative;
+	top:20px;
+	left:80px;
+}
+#text{
+	height:17px;
+}
+/*页面内容样式设计*/
+#content_left{
+	float:left;
+}
+.interbanner{
+	margin-left:200px;
+}
+.interbanner a{
+	font-size:16px;
+	color:#ff3333;
+	font-weight:bold;
+}
+.content{
+	width:600px;
+/*	border:1px red solid;*/
+	margin-left:180px;
+	margin-top:20px;
+}
+.article_title{
+	width:400px;
+	/*border:1px black solid;*/
+	margin-left:45px;
+	padding-left:100px;
+}
+.article_title h2{
+	margin-left:30px;
+	font-family:"楷体";
+}
+.article_title hr{
+	width:450px;
+	position:relative;
+	right:75px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.article_title span{
+	float:right;
+	margin-right:100px;
+}
+.article_title h6{
+	color:#b0b0b0;
+	font-weight:normal;
+	font-size:14px;
+
+}
+.article{
+	margin-top:15px;
+	width:600px;
+/*	border:1px blue solid;*/
+}
+.article img{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:214px;
+}
+.article p{
+	text-indent:16px;
+	line-height:30px;
+}
+.article_notice{
+	margin-top:10px;
+	margin-bottom:10px;
+	width:600px;
+/*	border:1px black solid;*/
+	/*margin-left:44px;*/
+}
+.article_notice a{
+	font-size:16px;
+}
+#content_right{
+	margin-top:40px;
+	float:right;
+	width:550px;
+	height:870px;
+/*	border:1px green solid;*/
+}
+.latest{
+	width:280px;
+	margin-left:120px;
+/*	border:1px purple solid;*/
+}
+.latest_news{
+	width:270px;
+}
+.latest_title{
+	width:200px;
+	height:100px;
+	background-image:url(../images/latest_title.png);
+	background-repeat:no-repeat;
+	margin-left:48px;
+	margin-top:10px;
+	background-size:200px 100px;
+}
+.latest_news{
+	width:280px;
+	height:279px;
+	margin-top:10px;
+	background-image:url(../images/latest_border.png);
+	background-repeat:no-repeat;
+	background-size:280px 279px;
+}
+.latest_news ul{
+	padding-top:12px;
+	margin-left:10px;
+	list-style:circle;
+	margin-top:4px;
+}
+.latest_news ul li{
+	line-height:38px;
+	list-style-position:inside;
+}
+#special{
+	margin-top:4px;
+}
+.latest_news ul li a{
+	position:relative;
+	right:20px;
+	font-size:12px;
+}
+.latest_news ul li a span{
+	float:right;
+	font-size:10px;
+	position:relative;
+	right:4px;
+}
+.music{
+	margin-top:20px;
+}
+#favorite{
+	position:relative;
+	left:125px;
+}
+.music ul{
+	width:550px;
+	height:330px;
+    background-image:url(../images/music_border.png);
+    background-repeat:no-repeat;
+    background-size:550px 330px;
+	list-style:circle;
+	list-style-position:inside;
+	padding-top:10px;
+}
+.music ul li{
+	margin-left:10px;
+	line-height:26px;
+	margin-top:10px;
+	margin-bottom:12px;
+}
+.music ul li p{
+	display:inline;
+	position:relative;
+	right:20px;
+}
+#over{
+	position:relative;
+	left:5px;
+}
+.music ul li span{
+	float:right;
+	margin-right:14px;
+}
+/*页脚样式设计*/
+#footer{
+	clear:both;
+}
+#index{
+	border:none;
+}
+.besides ul{
+	margin-left:450px;
+}
+.besides ul li{
+	float:left;
+	border-left:2px #ff3333 solid;
+	margin-left:20px;
+	padding-left:20px;
+}
+.besides ul li a{
+	font-size:16px;
+}
+#fenge{
+	width:500px;
+	position:relative;
+	left:450px;
+}
+.ending{
+	width:600px;
+	clear:left;
+	margin-left:450px;
+}

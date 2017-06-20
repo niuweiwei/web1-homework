@@ -1,0 +1,171 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image:url(../images/bg1.jpg);
+}
+a{
+	color:#ff3333;
+	font-weight:bold;
+	font-family:"宋体";
+	font-size:16px;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+ul{
+	list-style:none;
+}
+/*页面顶部样式设置*/
+#head{
+	width:1350px;
+	align-content:center;
+	padding-bottom:0px;
+}
+.banner img{
+	position:relative;
+	left:450px;
+}
+.banner{
+	background-image:url(../images/banner.jpg);
+	background-size:1350px 222px;
+	background-repeat:no-repeat;
+	margin-bottom:0px;
+}
+.login span{
+	float:right;
+	position:relative;
+	bottom:220px;
+	right:20px;
+}
+.login span a{
+	color:#00ffcc;
+	font-size:16px;
+}
+.nav{
+	height:61px;
+	background-image:url(../images/nav_bg.png);
+	background-repeat:repeat-x;
+	background-size:1350px 61px;
+	position:relative;
+	bottom:4px;
+}
+.nav ul li{
+	float:left;
+	margin-left:10px;
+	width:100px;
+	height:50px;
+}
+#front{
+	margin-left:150px;
+	width:100px;
+}
+#front a{
+	padding-left:40px;
+}
+#second{
+	margin-left:10px;
+}
+.nav ul li a{
+	color:#cc3333;
+	line-height:64px;
+	font-weight:bold;
+	font-size:16px;
+}
+.nav ul li a:hover{
+	color:#ff9966;
+}
+#picture{
+	color:#ff9966;
+}
+.search input{
+	float:left;
+	position:relative;
+	top:20px;
+	left:80px;
+}
+#text{
+	height:17px;
+}
+/*页面内容样式设计*/
+#content{
+	/*border:2px #33ff99 solid;*/
+	width:1200px;
+	height:1300px;
+}
+.interbanner{
+	margin-left:100px;
+}
+.show{
+	background-image:url(../images/photo_border.png);
+	background-size:1200px 1300px;
+	background-repeat:no-repeat;
+	width:1200px;
+	height:1300px;
+	margin-left:60px;
+}
+.photo{
+	float:left;
+}
+#wangzhao{
+	margin-top:180px;
+	margin-left:220px;
+}
+#ruiting{
+	margin-top:180px;
+}
+#mengqi{
+	margin-top:90px;
+}
+#liying{
+	margin-left:110px;
+}
+#shijia{
+/*	clear:left;*/
+	margin-left:220px;
+}
+.images a img{
+	border:1px #6699cc solid;
+	width:240px;
+	height:300px;
+	margin-right:20px;
+	opacity:0.5;
+}
+.images a:hover img{
+	opacity:1;
+}
+.name{
+	/*border:2px black solid;*/
+	width:240px;
+	color:#522a06;
+}
+#wz{
+	margin-left:220px;
+}
+#ly{
+	position:relative;
+	left:110px;
+}
+/*页脚样式*/
+.comment{
+	/*border:1px green solid;*/
+	width:1000px;
+	height:100px;
+	margin-left:186px;
+}
+.comment span input{
+	width:50px;
+	height:30px;
+	float:right;
+	margin-right:80px;
+	margin-top:20px;
+}
+#footer img{
+	position:relative;
+	left:160px;
+}
+.ending{
+	margin-left:375px;
+}
