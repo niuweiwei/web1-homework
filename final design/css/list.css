@@ -19,7 +19,7 @@ ul{
 }
 /*页面顶部样式设置*/
 #head{
-	width:1355px;
+	width:1350px;
 	align-content:center;
 	padding-bottom:0px;
 }
@@ -29,7 +29,7 @@ ul{
 }
 .banner{
 	background-image:url(../images/banner.jpg);
-	background-size:1365px 222px;
+	background-size:1350px 222px;
 	background-repeat:no-repeat;
 	margin-bottom:0px;
 }
@@ -37,17 +37,18 @@ ul{
 	float:right;
 	position:relative;
 	bottom:220px;
-	right:5px;
+	right:20px;
 }
 .login span a{
 	color:#00ffcc;
 	font-size:16px;
+	font-weight:bold;
 }
 .nav{
 	height:61px;
 	background-image:url(../images/nav_bg.png);
 	background-repeat:repeat-x;
-	background-size:1365px 61px;
+	background-size:1350px 61px;
 	position:relative;
 	bottom:4px;
 }
@@ -130,18 +131,18 @@ ul{
 	color:#6699cc;
 }
 .content_center{
-	width:650px;
-	height:700px;
+	width:700px;
+	height:780px;
 	background-image:url(../images/list_border.png);
 	background-repeat:no-repeat;
-	background-size:650px 700px;
+	background-size:700px 700px;
 	margin-left:50px;
 	margin-top:20px;
 	float:left;
 }
 .content_center ul{
 	list-style:circle;
-	list-style-position:inside;
+/*	list-style-position:inside;*/
 	margin-left:50px;
 	margin-top:20px;
 }
@@ -150,7 +151,7 @@ ul{
 }
 .content_center ul li p{
 	position:relative;
-	right:20px;
+	right:5px;
 	display:inline;
 }
 .content_center ul li p a{
@@ -159,6 +160,30 @@ ul{
 	font-weight:bold;
 }
 .content_center ul li p a:hover{
+	text-decoration:none;
+	color:#ff9966;
+}
+.content_center ul li span{
+	float:right;
+	margin-right:23px;
+}
+.page ul{
+	width:450px;
+	height:30px;
+	margin-left:150px;
+	/*border:1px red solid;*/
+	list-style:none;
+}
+.page ul li{
+	float:left;
+	margin-left:30px;
+}
+.page ul li a{
+	font-weight:bold;
+	font-size:20px;
+	color:#000033;
+}
+.page ul li a:hover{
 	text-decoration:none;
 	color:#ff9966;
 }

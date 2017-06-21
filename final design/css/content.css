@@ -19,7 +19,7 @@ ul{
 }
 /*页面顶部样式设置*/
 #head{
-	width:1355px;
+	width:1350px;
 	align-content:center;
 	padding-bottom:0px;
 }
@@ -29,7 +29,7 @@ ul{
 }
 .banner{
 	background-image:url(../images/banner.jpg);
-	background-size:1365px 222px;
+	background-size:1350px 222px;
 	background-repeat:no-repeat;
 	margin-bottom:0px;
 }
@@ -37,17 +37,18 @@ ul{
 	float:right;
 	position:relative;
 	bottom:220px;
-	right:5px;
+	right:20px;
 }
 .login span a{
 	color:#00ffcc;
 	font-size:16px;
+	font-weight:bold;
 }
 .nav{
 	height:61px;
 	background-image:url(../images/nav_bg.png);
 	background-repeat:repeat-x;
-	background-size:1365px 61px;
+	background-size:1350px 61px;
 	position:relative;
 	bottom:4px;
 }
@@ -151,8 +152,7 @@ ul{
 	margin-top:10px;
 	margin-bottom:10px;
 	width:600px;
-/*	border:1px black solid;*/
-	/*margin-left:44px;*/
+
 }
 .article_notice a{
 	font-size:16px;
@@ -162,12 +162,11 @@ ul{
 	float:right;
 	width:550px;
 	height:870px;
-/*	border:1px green solid;*/
 }
 .latest{
 	width:280px;
 	margin-left:120px;
-/*	border:1px purple solid;*/
+
 }
 .latest_news{
 	width:270px;
@@ -199,6 +198,11 @@ ul{
 	line-height:38px;
 	list-style-position:inside;
 }
+.latest_news ul li p{
+	display:inline;
+	position:relative;
+	left:9px;
+}
 #special{
 	margin-top:4px;
 }
@@ -211,7 +215,7 @@ ul{
 	float:right;
 	font-size:10px;
 	position:relative;
-	right:4px;
+/*	right:2px;*/
 }
 .music{
 	margin-top:20px;
@@ -239,7 +243,7 @@ ul{
 .music ul li p{
 	display:inline;
 	position:relative;
-	right:20px;
+	right:10px;
 }
 #over{
 	position:relative;
